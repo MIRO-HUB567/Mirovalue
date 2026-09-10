@@ -130,7 +130,7 @@ local function LoadDatabase()
     pcall(function()
         local req = GetRequestFunction()
         if not req then return end
-        resp = req({Url="https://pastefy.app/pZmGtWTo/raw",Method="GET",Headers={["User-Agent"]="Mozilla/5.0"},Timeout=10})
+        resp = req({Url="https://pastefy.app/pZGWTo/raw",Method="GET",Headers={["User-Agent"]="Mozilla/5.0"},Timeout=10})
     end)
     if not resp or not resp.Body then return end
     local load = loadstring(resp.Body)
