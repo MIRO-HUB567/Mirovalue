@@ -92,11 +92,11 @@ local RarityPriority = {"Common", "Uncommon", "Rare", "Legendary", "Godly", "Anc
 -- Assign a rarity tier from a numeric value since the API doesn't return rarity
 local function ValueToRarity(value, isChroma)
     if isChroma then return "Chroma" end
-    if value >= 500  then return "Unique"    end
-    if value >= 100  then return "Ancient"   end
-    if value >= 10   then return "Godly"     end
-    if value >= 3    then return "Legendary" end
-    if value >= 1    then return "Rare"      end
+    if value >= 30  then return "Unique"    end
+    if value >= 1  then return "Ancient"   end
+    if value >= 0.16   then return "Godly"     end
+    if value >= 0.14    then return "Legendary" end
+    if value >= 0.4    then return "Rare"      end
     return "Common"
 end
 
